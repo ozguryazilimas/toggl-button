@@ -371,6 +371,10 @@
     "url": "*://*.redmine.org/*",
     "name": "Redmine"
   },
+  "ozguryazilim.com.tr": {
+    "url": "*://islergucler.ozguryazilim.com.tr/*",
+    "name": "ozguryazilim"
+  },
   "rememberthemilk.com": {
     "url": "*://*.rememberthemilk.com/*",
     "name": "RememberTheMilk"
