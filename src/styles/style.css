@@ -564,6 +564,13 @@ only screen and (min-resolution: 192dpi) {
   margin-top: 4px;
 }
 
+/********* REDMINE *********/
+.toggl-button.islergucler {
+  float: left;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 /********* CAPSULECRM *********/
 .toggl-button.capsule {
   position: absolute;
