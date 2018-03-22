@@ -20,7 +20,12 @@ togglbutton.render('body.controller-issues.action-show .contextual:not(.toggl)',
     if (!!description) {
       description = " " + description;
     }
-    description = numElem.textContent + description;
+    var numText = numElem.textContent;
+
+    if (numText.indexOf('#') > 0) {
+      numText = numText.substr(numText.indexOf('#'));
+    }
+    description = numText + description;
   }
 
   link = togglbutton.createTimerLink({
